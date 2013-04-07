@@ -1,4 +1,4 @@
-jquery.hold version 1.1
+jquery.holdit version 1.1
 ================
 
 holdit.js is a jquery plugin that creates an HTML5/Chrome like placeholder for all browsers. It is compatible back to IE 7, FF 3.0, Safari 4.0 and Chrome 8.
