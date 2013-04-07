@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>holdit.js sample</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+            body{
+                background: #eee;
+                font-family: Arial;
+            }
+            h2{
+                text-align: center;
+                color: #666;
+            }
+            form{
+                width: 50%;
+                margin: 0 auto;
+            }
+            input{
+                width: 100%;
+                font-size: 1.7em;
+                padding: 8px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                border: 1px solid #666;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <form>
+
+            <h2>holdit.js sample</h2>
+
+            <input value="First Name" type="text" />
+            <input value="Last Name" type="text" />
+            <input value="Email" type="email" />
+
+        </form>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="jquery.holdit.1.1.js"></script>
+        <script type="text/javascript">
+
+            $(function(){
+
+                $('input').holdit({ italic: true, dark: '#222222', light: '#888888' });
+
+            });
+
+        </script>
+
+    </body>
+</html>
